@@ -24,6 +24,9 @@ header {
  height: 46.5rem;
  background: url("./assets/images/bg-image.svg");
 }
+nav {
+    margin:  0 0 9.625rem 0;
+}
 
 nav ul {
     display: flex;    
@@ -81,4 +84,58 @@ nav ul a {
 
 nav ul a:hover {
     border-bottom: 1px solid rgba(255, 255, 255,0.8);
+    opacity: 1;
+}
+
+header h1 {
+    width: 50rem;
+    height: 4.6875rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.8125rem;
+    font-style: normal;
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 1.375rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 4.6875rem;
+    letter-spacing: 0.3925rem;
+    text-transform: uppercase;
+
+}
+header p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    text-align: center;
+    color: #ffffff;
+    width: 31.5rem;
+    height: 2.9375rem;
+    margin: auto;
+    margin-bottom: 1.98125rem;
+
+}
+.header_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    width: 184px;
+    height: 46px;
+    margin: 0 0 0 44.1875rem;
+    background-color: #00AFDB;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 16.41px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    cursor: pointer;    
+}
+
+.header_button:hover {
+    border: 1px solid rgba(255, 255, 255,0.8);
 }
