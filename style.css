@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto-Regular.ttf');
+}
+
 html {
     font-size: 16px;
 }
@@ -12,4 +17,68 @@ html {
     width: 100rem; 
     margin: auto;
     
+}
+
+header {
+ width: 100rem;
+ height: 46.5rem;
+ background: url("./assets/images/bg-image.svg");
+}
+
+nav ul {
+    display: flex;    
+    width: 40%;
+    height: 4.75rem;
+    list-style: none;
+    margin: auto;    
+    align-items: center;
+    font-family: 'Roboto',sans-serif;
+    padding: 1.1875rem 0 0 0;
+    
+}
+.about, .syllabus, .projects, .faq {
+    height: 20px;
+    line-height: 1.225rem;
+}
+
+.about {
+    width: 2.375rem;
+    padding: 0 0 0 1.4375rem;
+    margin: 0 6.5625rem 0 0;
+}
+
+.syllabus {
+    width: 3.3125rem;
+    padding: 0 0 0 0.125rem;
+    margin: 0 6.125rem 0 0;
+}
+
+.logo {
+    margin: 0 6.5625rem 0 0;
+    width: 2.75rem;
+    height: 2.8125rem;
+}
+.logo img {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.projects {
+    width: 3.25rem;
+    margin: 0 5.25rem 0 0;
+}
+
+
+
+
+nav ul a {
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.875rem;
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+nav ul a:hover {
+    border-bottom: 1px solid rgba(255, 255, 255,0.8);
 }
