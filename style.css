@@ -19,6 +19,8 @@ html {
     
 }
 
+/*HEADER STYLES--------------------------------------------*/
+
 header {
  width: 100rem;
  height: 46.5rem;
@@ -121,7 +123,7 @@ header p {
     margin-bottom: 1.98125rem;
 
 }
-.header_button {
+.blueButton {
     display: flex;
     align-items: center;
     justify-content: center;    
@@ -140,7 +142,7 @@ header p {
     cursor: pointer;    
 }
 
-.header_button:hover {
+.blueButton:hover {
     border: 1px solid rgba(255, 255, 255,0.8);
 }
 
@@ -170,4 +172,60 @@ header p {
 
 .socials div:hover {
     background-color: #00AFDB;
+}
+
+/*RAPRESENT BLOCK STYLES-------------------------*/
+
+.rappresent {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 52.625rem;   
+    
+} 
+
+.rappresent_textContent {
+    width: 25.4375rem;
+    height: 14.5625rem;    
+    margin: -1.0625rem 15.5rem 0 16.75rem;
+    
+}
+
+.rappresent h2 {
+  width: 22.9375rem;
+  height: 3.5625rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0 1.25rem 0;
+}
+
+.rappresent p {
+  width: 25.4375rem;
+  height: 5rem;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin: 0 0 1.8125rem 0;
+  color: #4E4E4E;
+}
+
+.rappresent_textContent .blueButton {
+    margin: 0;
+}
+
+.rappresent img {
+    display: block;
+    margin: -1.25rem 0 0 0;
+}
+
+#rapBlueButton:hover {
+    border: 1px solid rgba(0, 0, 0,0.4);
+    color:  #4E4E4E;
 }
