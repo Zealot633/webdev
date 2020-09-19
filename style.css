@@ -10,12 +10,17 @@
 }
 
 html {
-    font-size: 16px;
+    font-size: 16px;    
+}
+
+body {
+    background: #F2F2F2;
 }
 
 .page  {
     width: 100rem; 
     margin: auto;
+    overflow: hidden;
     
 }
 
@@ -180,7 +185,8 @@ header p {
     display: flex;
     align-items: center;
     width: 100%;
-    height: 52.625rem;   
+    height: 52.625rem;
+    background: #ffffff;   
     
 } 
 
@@ -233,7 +239,102 @@ header p {
 /*OUR COMMUNITY STYLES-----------------------------*/
 
 .ourCommunity {
-    width: 100%;
+    display: flex;    
+    width: 100rem;
     height: 31.5rem;
     background: #F5F6F7;
+    align-items: center;
+    justify-items: center;    
 }
+
+.ourCommunity h3 {
+    width: 10rem;
+    height: 1.25rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    padding: 0.25rem 0 0 0;
+    letter-spacing: 0.14561875rem;
+
+}
+
+.ourCommunity_textContent {    
+    display: flex;
+    width: 18.625rem;
+    height: 10.9375rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 0 16.8125rem;
+    box-sizing: content-box;
+    margin: -1.1875rem 8.6875rem 0 0;
+    
+}
+
+.ourCommunity_textContent p {
+    width: 18.625rem;
+    height: 5rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.875rem;
+    font-weight: normal;
+    line-height: 1.25rem;
+    text-align: center;
+    color: #4E4E4E;
+
+}
+.avatar {
+    padding: 0 0 0 0.0625rem;
+}
+
+.ourCommunity_slider {
+    height: 17.8125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: -3.8125rem 0 0 0;
+    
+}
+.switch {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    font-weight: normal;
+    line-height: 1.5625rem;
+    color: #373737;
+    padding: 0 0 0 34rem;   
+
+}
+.pageNumber {
+    padding-left: 0.3125rem;
+}
+
+.numberOfPages {
+    padding-right: 0.3125rem;
+}
+
+
+.leftBracket, .rightBracket:hover {
+    cursor: pointer;
+}
+
+
+.rightBracket {
+    transform: rotate(180deg);
+}
+
+.gallery {
+    width: 80.0625rem;
+    height: 15.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery img {
+    display: block;
+    width: 25.4375rem;
+    height: 15.25rem;
+}
+
