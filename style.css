@@ -17,6 +17,12 @@ body {
     background: #F2F2F2;
 }
 
+svg path {
+  fill:inherit;
+  stroke:inherit;
+  stroke-width:inherit;
+}
+
 .page  {
     width: 100rem; 
     margin: auto;
@@ -469,11 +475,18 @@ input {
     
 }
 .subscribe_button_wrapper button {
-    outline: none;
-    cursor: pointer;
+    outline: none;    
     border: none;
     background: #00AFDB;
 }
+.check {
+    fill: #F5F6F7;
+}
+.check:hover {
+    fill: #9be65f;
+    cursor: pointer;
+}
+
 
 /*DOWNLOAD BLOCK STYLES----------------------------------------------*/
 
@@ -564,9 +577,19 @@ input {
     height: 3.125rem;
     background: #009CC2;
 }
+    .apple {
+        fill: #F5F6F7;        
+    }
+    .apple:hover {
+        fill: rgba(37, 37, 37, 0.8);
+        cursor: pointer;
+    }
+    
+    .android {
+       fill: #F5F6F7;     
+    }
 
-
-
-.download_blueButton_icon img {
-    cursor: pointer;
-}
+    .android:hover {
+        fill: rgba(37, 37, 37, 0.8);
+        cursor: pointer;
+    }
