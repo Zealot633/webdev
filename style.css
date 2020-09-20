@@ -474,3 +474,99 @@ input {
     border: none;
     background: #00AFDB;
 }
+
+/*DOWNLOAD BLOCK STYLES----------------------------------------------*/
+
+.download {
+    display: flex;
+    flex-direction: column;
+    height: 29.25rem;
+    background:  #F5F6F7;
+    align-items: center;
+    padding: 7.5rem 0 0 0;
+
+}
+
+.download_textContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30.1875rem;
+    
+}
+
+
+
+.download_textContent h2 {
+    width: 15.625rem;
+    height: 1.75rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 1.75rem;
+    color: #373737;
+    margin: 0 0 1.3125rem 0;
+}
+.download_textContent p {
+    width: 30.1875rem;
+    height: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-align: center;
+    margin: 0 0 1.8125rem 0;
+
+}
+
+
+
+.download_buttons {
+    display: flex;
+    width: 25.375rem;
+    justify-content: space-between;
+}
+
+.download_blueButton {
+    display: flex;
+}
+
+.download_blueButton_textContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    height: 3.125rem;
+    background: #00AFDB;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;    
+    font-size: 0.875rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.download_blueButton_textContent:hover {
+    color: rgba(37, 37, 37, 0.8);
+}
+
+.download_blueButton_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.75rem;
+    height: 3.125rem;
+    background: #009CC2;
+}
+
+
+
+.download_blueButton_icon img {
+    cursor: pointer;
+}
