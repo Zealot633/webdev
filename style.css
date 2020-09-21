@@ -15,6 +15,7 @@ html {
 
 body {
   background: #f2f2f2;
+  font-family: "Roboto", sans-serif;
 }
 
 svg path {
@@ -47,7 +48,6 @@ header {
   list-style: none;
   margin: auto;
   align-items: center;
-  font-family: "Roboto", sans-serif;
   padding: 1.1875rem 0 0 0;
 }
 .about,
@@ -103,10 +103,9 @@ header {
 }
 
 header h1 {
-  width: 50rem;
+  width: 45.625rem;
   height: 4.6875rem;
-  font-family: "Roboto", sans-serif;
-  font-size: 3.8125rem;
+  font-size: 3.9375rem;
   font-style: normal;
   font-weight: bold;
   margin: auto;
@@ -114,11 +113,10 @@ header h1 {
   color: #ffffff;
   text-align: center;
   line-height: 4.6875rem;
-  letter-spacing: 0.3925rem;
+  letter-spacing: 0.325rem;
   text-transform: uppercase;
 }
 header p {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1.125rem;
@@ -139,7 +137,6 @@ header p {
   margin: auto;
   margin-bottom: 11.4375rem;
   background-color: #00afdb;
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-style: normal;
   line-height: 16.41px;
@@ -202,20 +199,19 @@ header p {
 .rappresent h2 {
   width: 22.9375rem;
   height: 3.5625rem;
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 1.5rem;
   line-height: 1.75rem;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.0703125rem;
   margin: 0 0 1.25rem 0;
+  padding: 0 0 0 0.125rem;
 }
 
 .rappresent p {
   width: 25.4375rem;
   height: 5rem;
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 0.875rem;
@@ -282,7 +278,6 @@ header p {
 .ourCommunity_textContent p {
   width: 18.625rem;
   height: 5rem;
-  font-family: "Roboto", sans-serif;
   font-size: 0.875rem;
   font-weight: normal;
   line-height: 1.25rem;
@@ -302,7 +297,6 @@ header p {
 }
 
 .switch {
-  font-family: "Roboto", sans-serif;
   font-size: 1.125rem;
   font-weight: normal;
   line-height: 1.5625rem;
@@ -368,7 +362,6 @@ header p {
 .implement h2 {
   width: 18.625rem;
   height: 1.75rem;
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 1.5rem;
@@ -381,7 +374,6 @@ header p {
 .implement p {
   width: 25.4375rem;
   height: 3.75rem;
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 0.875rem;
@@ -421,7 +413,6 @@ header p {
 .subscribe h2 {
   width: 23.75rem;
   height: 1.75rem;
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 1.5rem;
@@ -492,7 +483,6 @@ input {
 .download_textContent h2 {
   width: 15.625rem;
   height: 1.75rem;
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 1.5rem;
@@ -506,7 +496,6 @@ input {
 .download_textContent p {
   width: 30.1875rem;
   height: 2.5rem;
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 0.875rem;
@@ -532,7 +521,6 @@ input {
   width: 7.9375rem;
   height: 2.875rem;
   background: #00afdb;
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   text-transform: uppercase;
@@ -597,7 +585,6 @@ footer {
   display: flex;
   width: 17.0625rem;
   height: 1rem;
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 0.875rem;
@@ -606,14 +593,14 @@ footer {
   margin: 0;
 }
 .credits a {
-  padding-right: 1.1875rem;
+  padding-right: 0.9375rem;
 }
 .credits {
   margin-right: 1.1875rem;
 }
 
 .privacy a {
-  padding-right: 1.25rem;
+  padding-right: 1rem;
 }
 
 .ourTeams {
@@ -634,7 +621,6 @@ footer {
 .copyright {
   width: 10.625rem;
   height: 1.25rem;
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 0.875rem;
